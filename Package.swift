@@ -1,10 +1,10 @@
-// swift-tools-version:3.1
-
+// Generated automatically by Perfect Assistant Application
+// Date: 2017-10-23 15:27:24 +0000
 import PackageDescription
-
 let package = Package(
-    name: "PerfectAWS",
-    dependencies: [
-      .Package(url: "https://github.com/PerfectlySoft/Perfect-CURL.git", majorVersion: 2)
-    ]
+	name: "PerfectAWS",
+	targets: [],
+	dependencies: [
+		.Package(url: "https://github.com/PerfectlySoft/Perfect-CURL.git", majorVersion: 3),
+	]
 )
